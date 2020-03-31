@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Carlos Bordalo <carlosvitor6@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
