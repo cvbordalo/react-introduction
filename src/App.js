@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 
+import TechList from './components/TechList';
+
 function App() {
-  return <img width='1000' src={mha} />;
+  return <TechList />
 }
 
 export default App;
